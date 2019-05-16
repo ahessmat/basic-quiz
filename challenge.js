@@ -1,7 +1,7 @@
 /////////////////////////////
 // CODING CHALLENGE
 
-
+//WORDS//
 /*
 --- Let's build a fun quiz game in the console! ---
 
