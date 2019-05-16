@@ -1,7 +1,7 @@
 /////////////////////////////
 // CODING CHALLENGE
 
-//WORDS//
+
 /*
 --- Let's build a fun quiz game in the console! ---
 
@@ -33,6 +33,9 @@ c) correct answer (I would use a number for this)
 11. Display the score in the console. Use yet another method for this.
 */
 
+//STEP 7
+(function () { //invoking this as IIFE
+    
 //STEP 1
 var Question = function(text, options, answer){
     this.text = text;
@@ -73,9 +76,7 @@ function isRight() {
 console.log(isRight());
 
 
-nextQuestion();
-
-
+})(); //closing IIFE
 
 
 
